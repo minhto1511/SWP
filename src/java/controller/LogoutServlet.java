@@ -30,4 +30,7 @@ public class LogoutServlet extends HttpServlet {
         // Chuyển hướng người dùng đến trang đăng nhập hoặc trang chủ
         response.sendRedirect("login.jsp");  // Hoặc có thể chuyển hướng đến trang khác
     }
+    public static void main(String[] args) {
+        System.out.println("sss");
+    }
 }
